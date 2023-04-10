@@ -5,4 +5,10 @@ const cliente = {
   email: "erick@email.com",
 };
 
-console.log(cliente.nome);
+console.log(
+  `Meu nome é ${cliente.nome} ,tenho ${
+    cliente.idade
+  } anos de idade, meu CPF:${cliente.cpf.substring(0, 3)}, meu e-mail ${
+    cliente.email
+  }`
+);
